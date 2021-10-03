@@ -1,0 +1,214 @@
+
+@import "elements/theme/theme.scss";
+
+.App {
+  font-family: "Poppins", sans-serif;
+
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 22px;
+
+    color: $blueNavy;
+    img {
+      width: 72px;
+      height: 66px;
+      margin-right: 12px;
+    }
+  }
+
+  .custom-toggler {
+    border-width: 2px;
+    border-color: $blueNavy;
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(2, 4, 74, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+  }
+  .page-content {
+    margin-top: 100px;
+    .content-text-hero {
+      font-weight: 600;
+      font-size: 46px;
+      line-height: 60px;
+      /* or 130% */
+
+      color: $blueNavy;
+    }
+    .context-text-des {
+      margin-top: 26px;
+
+      font-size: 18px;
+      line-height: 30px;
+      /* or 167% */
+
+      color: $gray3;
+    }
+    .corporate {
+      .content-logo img {
+        height: 30px;
+      }
+    }
+  }
+
+  .page-content-price {
+    background-color: $backgrounColor2;
+    background-size: cover;
+    margin-top: 70px;
+    .btn {
+      margin-top: 40px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      text-align: center;
+      justify-content: center;
+      border-radius: 10px;
+    }
+    h1.text-title {
+      margin-top: 70px;
+      margin-bottom: 20px;
+      font-weight: 600;
+      font-size: 46px;
+      line-height: 60px;
+      /* identical to box height, or 130% */
+
+      text-align: center;
+
+      color: $blueNavy;
+    }
+    h1.text-title-description {
+      font-size: 18px;
+      line-height: 30px;
+      /* or 167% */
+
+      text-align: center;
+
+      color: $gray3;
+      margin-bottom: 50px;
+    }
+
+    .master-card {
+      border-radius: 22px;
+      padding: 30px;
+    }
+    .card-white {
+      background-color: $white;
+      .card-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: $blueNavy;
+        margin-bottom: 16;
+      }
+      .card-price {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        /* identical to box height */
+        margin-bottom: 15px;
+
+        color: $blueNavy;
+      }
+      .card-description {
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        color: $gray3;
+        margin-bottom: 40px;
+      }
+      .item-benefits {
+        margin-bottom: 20px;
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 8px;
+        }
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: $blueNavy;
+        }
+      }
+      .btn-click-purple {
+        background-color: $purple;
+
+        font-weight: 600;
+        font-size: 18px;
+
+        text-align: center;
+
+        color: $white;
+      }
+    }
+    .card-purple {
+      background-color: $purple;
+      .card-title {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+
+        color: $white;
+        margin-bottom: 16;
+      }
+      .card-price {
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 43px;
+        /* identical to box height */
+
+        color: $white;
+        margin-bottom: 15px;
+      }
+      .card-description {
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+
+        color: $purple2;
+        margin-bottom: 40px;
+      }
+      .item-benefits {
+        margin-bottom: 20px;
+        img {
+          width: 20px;
+          height: 20px;
+          margin-right: 8px;
+        }
+        p {
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 19px;
+          /* identical to box height */
+
+          color: $white;
+        }
+      }
+      .btn-click-green {
+        background-color: $green;
+
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+
+        color: $white;
+      }
+    }
+  }
+
+  .button-purple {
+    color: $white;
+    background-color: $purple;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+  .button-gray {
+    color: $gray2;
+    background-color: $gray1;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+}
